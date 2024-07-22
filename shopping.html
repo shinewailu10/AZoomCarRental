@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reservation</title>
+	<link rel="stylesheet" type="text/css" href="../Css/shopping.css">
+	<script src="https://kit.fontawesome.com/7af231cc81.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/6eff5c2acf.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check">
+			<i class="fas fa-bars" id="btn"></i>
+			<i class="fas fa-times" id="cancel"></i>
+		</label>
+		<img src="../Photo/azoom.png">
+		<ul>
+			<li><a href="Home_in_.html">Home</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="about_in_.html">About Us</a></li>
+			<li><a href="contact_in_.html">Contact</a></li>
+			<li><a href="shopping.html"><i class="fa fa-cart-shopping"></i></a></li>
+		</ul>
+	</nav>
+
+    <!-- <h1>Reservation</h1> -->
+
+<div class="container"> 
+
+    <div class="card-container">
+
+                <img src="../Photo/card.jpeg" alt="">
+           
+	</div>
+
+        
+
+     
+	 <form action="">
+            <h1>Reservation</h1>
+
+            <div class="formBox">
+                            <div class="inputBox w50">
+                                <input type="text" name="" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" name="" required>
+                                <span>Last Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" name="" required>
+                                <span>Email Address</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" name="" required>
+                                <span>Mobile Number</span>
+            </div>
+        </div>
+            <div class="inputBox">
+                <span>brench</span>
+                <select name="" id="" class="brench-input" required>
+                    <option value="brench" selected disabled>brench</option>
+                    <option value="01">Brench1:AMK</option>
+                    <option value="02">Brench2:Dover</option>
+                </select>
+            </div>
+            <div class="inputBox">
+                <span>rental period</span>
+                <select name="" id="" class="year-input" required>
+                    <option value="rental period" selected disabled>rental period</option>
+                    <option value="daily">daily</option>
+                    <option value="weekly">weekly</option>
+                    <option value="montly">monthly</option>
+                </select>
+            </div> 
+        <div class="inputBox">
+            <span>card number</span>
+            <input type="text" maxlength="16" class="card-number-input" required>
+        </div>
+        <div class="inputBox">
+            <span>card holder</span>
+            <input type="text" class="card-holder-input" required>
+        </div>
+        <div class="flexbox">
+            <div class="inputBox">
+                <span>expiration mm</span>
+                <select name="" id="" class="month-input" required>
+                    <option value="month" selected disabled>month</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <div class="inputBox">
+                <span>expiration yy</span>
+                <select name="" id="" class="year-input" required>
+                    <option value="year" selected disabled>year</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                </select>
+            </div>
+            <div class="inputBox">
+                <span>cvv</span>
+                <input type="text" maxlength="3" class="cvv-input" required>
+            </div>
+        </div>
+        <input onclick="res()" type="submit" value="Reserve" class="submit-btn">
+    </form>
+
+</div>    
+    
+
+
+
+	<footer>
+        <div class="row1">
+            <div class="col">
+                <img src="../Photo/azoom.png" class="logo">
+                <p>In this Web, you can get high quality and reliable cars.</p>
+            </div>
+            <div class="col">
+                <h3>Contact <div class="underline"><span></span></div></h3>
+               
+                <p class="email-id">azoomforyou@gmail.com</p>
+                <h4>+65 87877878</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="Home_in_.html">Home</a></li>
+                    <li><a href="about_in_.html">About Us</a></li>
+                    <li><a href="contact_in_.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder=" Please Enter Your Email" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
+                </form>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/login?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.pinterest.com/login/"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        </div>
+        <hr>
+        <p class="copyrights">Azoom Car Rental Service © 2023 - All Rights Reserved</p>
+    </footer> 
+
+</body>
+</html>
